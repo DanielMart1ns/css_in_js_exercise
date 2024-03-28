@@ -23,8 +23,3 @@ export const Container = styled.div`
     max-width: 80%;
   }
 `
-
-export const colors = {
-  corPrincipal: '#a7727d',
-  corSecundaria: '#f9f5e7'
-}
