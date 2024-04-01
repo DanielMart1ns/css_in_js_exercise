@@ -13,7 +13,7 @@ type Props = {
 
 const Vaga = (props: Props) => (
   <Job>
-    <JobTitle>{props.titulo}</JobTitle>
+    <JobTitle as="li">{props.titulo}</JobTitle>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
