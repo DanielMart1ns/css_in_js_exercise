@@ -11,12 +11,15 @@ export const Job = styled.li`
   &:hover {
     background-color: ${(props) => props.theme.corPrincipal};
     color: ${(props) => props.theme.corSecundaria};
-    cursor: pointer;
 
     a {
       border-color: ${(props) => props.theme.corPrincipal};
       background-color: ${(props) => props.theme.corSecundaria};
       color: ${(props) => props.theme.corPrincipal};
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 `

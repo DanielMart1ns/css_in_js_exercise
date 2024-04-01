@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.form`
   height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
@@ -23,7 +23,6 @@ export const HeroContainer = styled.div`
   & div {
     position: relative;
     color: #eee;
-    padding: 10px;
   }
 
   @media (max-width: 768px) {
@@ -35,7 +34,6 @@ export const HeroContainer = styled.div`
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
-  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
